@@ -20,8 +20,7 @@ public class Usuario {
     @JoinColumn(name = "clinica_id")
     private Clinica clinica;
 
-    @Column(nullable = false)
-    @Column(name = "nome_completo", nullable = false)
+     @Column(name = "nome_completo", nullable = false)
     private String nomeCompleto;
 
     @Column(unique = true, nullable = false)
